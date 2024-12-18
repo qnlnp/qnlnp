@@ -1,4 +1,6 @@
-<img src="https://img.shields.io/badge/php-a070f4?style=flat-square&logo=php&logoColor=white" style="height : auto;"/>
+<img src="https://img.shields.io/badge/php-8101f8?style=flat-square&logo=php&logoColor=white" style="height : auto;"/>
+<img src="https://img.shields.io/badge/php-8101f8?style=flat-square&logo=php&logoColor=white" style="height : auto;"/>
+<img src="https://img.shields.io/badge/php-8101f8?style=flat-square&logo=php&logoColor=white" style="height : auto;"/>
 
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=qnlnp&layout=compact)

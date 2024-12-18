@@ -1,6 +1,6 @@
 
 <h1 align="left">qnlnp</h1>
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=qnlnp)](https://github.com/qnlnp/)
+
 
 <h3></h3>
 <div>
@@ -11,7 +11,7 @@
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" style="height : 24px; margin-left : 10px; margin-right : 10px;"/></a>&nbsp;
 </div>
 
-
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=qnlnp)](https://github.com/qnlnp/)
 
 
 

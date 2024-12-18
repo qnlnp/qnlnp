@@ -1,5 +1,4 @@
-<h2>qnlnp</h2>
-
+<h1 align="left">qnlnp</h1>
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=qnlnp)](https://github.com/qnlnp/)
 
 <div>

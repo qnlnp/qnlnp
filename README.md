@@ -1,9 +1,10 @@
-<h1 align="left"></h1>
+<img src="https://img.shields.io/badge/php-773efe?style=flat-square&logo=simpleicons_php&logoColor=white" style="height : auto;"/>
+
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=qnlnp&layout=compact)
 
 <!--
-<img src="https://img.shields.io/badge/표현하고자 하는 말-색상?style=flat-square&logo=simpleicons에서 지칭하는 아이콘명&logoColor=아이콘색상" style="height : auto; margin-left : 10px; margin-right : 10px;"/>
+<img src="https://img.shields.io/badge/텍스트-색상?style=flat-square&logo=simpleicons_텍스트&logoColor=색상" style="height : auto;"/>
 -->
 
 

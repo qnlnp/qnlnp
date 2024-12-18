@@ -1,4 +1,4 @@
-<img src ="https://img.shields.io/badge/PHP-777BB4?&style=for-the-badge&logo=PHP&logoColor=white"/><img alt="MySQL" src ="https://img.shields.io/badge/MySQL-4479A1?&style=for-the-badge&logo=MySQL&logoColor=white"/>
+<img alt="PHP" src ="https://img.shields.io/badge/PHP-777BB4?&style=for-the-badge&logo=PHP&logoColor=white"/><img alt="MySQL" src ="https://img.shields.io/badge/MySQL-4479A1?&style=for-the-badge&logo=MySQL&logoColor=white"/>
 
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=qnlnp&layout=compact)

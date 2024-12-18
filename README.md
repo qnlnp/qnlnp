@@ -1,6 +1,6 @@
 
 <h1 align="left">qnlnp</h1>
-[![qnlnp's GitHub stats](https://github-readme-stats.vercel.app/api?username=qnlnp)](https://github.com/qnlnp/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=qnlnp)](https://github.com/qnlnp/qnlnp)
 
 <h3></h3>
 <div>

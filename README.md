@@ -1,8 +1,8 @@
 <h1 align="left">qnlnp</h1>
 
 
-<img src="https://img.shields.io/badge/php-777BB4?style=flat-square&logo=PHP&logoColor=white" style="height : 24px;"/></a>&nbsp;
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white" style="height : 24px;"/></a>&nbsp;
+<img src="https://img.shields.io/badge/php-777BB4?style=flat-square&logo=PHP&logoColor=white" style="height : auto;"/></a>&nbsp;
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white" style="height : 20px;"/></a>&nbsp;
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white" style="height : 24px;"/></a>&nbsp;
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white" style="height : 24px;"/></a>&nbsp;
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" style="height : 24px;"/></a>&nbsp;

@@ -1,4 +1,4 @@
-<h1 align="left">qnlnp</h1>
+<h1 align="left"></h1>
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=qnlnp&layout=compact)
 

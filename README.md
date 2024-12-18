@@ -2,7 +2,7 @@
 2024.12.19
 
 
-<img src="https://img.shields.io/badge/php-777BB4?style=flat-square&logo=PHP&logoColor=white" style="width : 70px; height : auto; margin-left : 3px; margin-right : 3px;"/><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white" style="width : 70px; height : auto; margin-left : 3px; margin-right : 3px;"/>
+<img src="https://img.shields.io/badge/php-777BB4?style=flat-square&logo=PHP&logoColor=white" style="width : 70px; height : auto; margin-left : 3px; margin-right : 3px;"/><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white" style="width : 70px; height : auto; margin-left : 20px; margin-right : 3px;"/>
 
 
 <!--

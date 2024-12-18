@@ -2,7 +2,7 @@
 2024.12.19
 
 
-<img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=PHP&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/>
+<img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=PHP&logoColor=white" style="height : 20px; margin-left : 3px; margin-right : 3px;"/>
 
 
 <!--

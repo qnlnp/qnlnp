@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>templates/index.html</title>
+</head>
+<th:block th:replace="~{ fragments/external_file :: external_block }"></th:block>
+<style type="text/css">
+ #msgDiv{ border: 1px solid #333; font-family: 돋움; font-size: 30px }
+ 
+</style>
+<script type="text/javascript">
+$(function(){
+	
+});//ready
+</script>
+<body>
+
+<!-- <div th:replace="~{ fragments/header :: header upfile}"></div> -->
+<!-- <div th:replace="~{ fragments/login_box :: login('lee', '이장훈') }"></div> -->
+
+<input type="button" id="btn" class="btn btn-success" value="클릭"/>
+
+
+<div id="msgDiv" th:text="${ helloMsg }">처음 인사를 보여주는 부분</div>
+<p id="msgDiv2" th:text="${ helloMsg2 }">처음 인사를 보여주는 부분</p><!-- 태그가 그대로 실행된다=XSS방지 가능 -->
+<p id="msgDiv2" th:utext="${ helloMsg2 }">처음 인사를 보여주는 부분</p>
+
+<input type="text" th:text="${ helloMsg }"/><br> 
+<input type="text" th:value="${ helloMsg }"/><br><!-- 속성값은 value니까,,, -->
+<div>이름들을 보여주는 영역</div>
+<div th:text="${ name }"></div>
+<div th:value="${ name }"></div>
+<div th:text="|${ name }과${ name2 }|">이름들을 보여주는 영역</div><!-- 파이프 처리 가능~~ -->
+<input type="text" th:value="${ helloMsg }"/><br>
+<ul>
+<li><a href="obj/object_value">객체 값을 출력</a> / <a th:href="@{obj/object_value}">객체 값을 출력(타임리프)</a></li>
+<li><a href="link/link_view">링크 출력</a> / <a th:href="@{link/link_view}">링크 출력(타임리프)</a></li>
+<li><a href="img/img_view">이미지 출력</a> / <a th:href="@{img/img_view}">이미지 출력(타임리프)</a></li>
+<li><a href="condition/condition_view">조건문</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+<!-- <div> -->
+<!-- <h2>이미지 파일 업로드</h2> -->
+<!--     <form action="/upload_process" method="post" enctype="multipart/form-data"> -->
+<!--         <label for="uploader">업로더 이름:</label> -->
+<!--         <input type="text" name="uploader" id="uploader" required><br><br> -->
+
+<!--         <label for="targetAge">대상 나이:</label> -->
+<!--         <select name="targetAge" multiple> -->
+<!--             <option value="10대">10대</option> -->
+<!--             <option value="20대">20대</option> -->
+<!--             <option value="30대">30대</option> -->
+<!--             <option value="40대 이상">40대 이상</option> -->
+<!--         </select><br><br> -->
+
+<!--         <label for="upfile">이미지 파일 선택:</label> -->
+<!--         <input type="file" name="upfile" id="upfile" accept="image/*" required><br><br> -->
+
+<!--         <input type="submit" value="업로드"> -->
+<!--     </form> -->
+<!-- </div> -->
+
+
+
+
+
+
+
+
+
+
+<img src="/images/default_img2.png" style="width: 100px"/>
+<h2>파일 업로드</h2>
+<form action="/upload_process" method="post" enctype="multipart/form-data">
+<table>
+<tr>
+<td>파일선택</td>
+<td><input type="file" name="upfile"></td>
+</tr>
+<tr>
+<td>업로더</td>
+<td><input type="text" name="uploader">
+<input type="text" name="uploader" value="a">
+
+</td>
+</tr>
+<tr>
+<td>대상나이</td>
+<td>
+<input type="checkbox" name="targetAge" value="10">10대 
+<input type="checkbox" name="targetAge" value="20">20대 
+<input type="checkbox" name="targetAge" value="30">30대 
+<input type="checkbox" name="targetAge" value="40">40대 
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="submit" value="업로드" class="btn btn-success btn-sm"/>
+</td>
+</tr>
+</table>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div th:replace="~{ fragments/footer :: footer }"></div>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>templates/link/link_view.html</title>
+</head>
+<!-- favicon 설정 -->
+<link rel="shortcut icon"
+	href="http://192.168.10.88:8080/images/favicon.ico" />
+<!--  bootstrap CDN -->
+<link rel="stylesheet" type="text/css"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+<style type="text/css">
+ 
+</style>
+<!-- jquery CDN -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+
+});//ready
+</script>
+<body>
+
+<h2 style="font-weight: bold; color:red">외부링크</h2>
+th:text="${lDTO1.urlName}" -> <span th:text="${lDTO1.urlName}" style="font-weight: bold; color:red"></span>
+<!-- <a th:href="http://${ lDTO1.url}">구글링크 입니다</a><br> -->
+<hr>
+기본) 홑따옴표, +연산자 ( <span style="font-weight: bold; color:red">'http://'+${ lDTO1.url}</span> )<br>
+<a th:href="'http://'+${ lDTO1.url}" style="color: red">구글링크 입니다</a><hr>
+
+서식 문자열, 파이프, Literal substitution ( <span style="font-weight: bold; color:red">|http://${ lDTO1.url}|</span> )<br>
+<a th:href="|http://${ lDTO1.url}|" style="color: red">구글링크 입니다</a><hr>
+
+<span style="font-weight: bold; color:blue">@{ }</span>를 통한<br>
+<span style="font-weight: bold; color:blue">uri템플릿 처리</span>는<br>
+<span style="font-weight: bold; color:blue">상대경로</span>에만 쓸 수 있다~<br>
+<a></a><hr style="height: 30px">
+
+<h2 style="font-weight: bold; color:blue">내부링크</h2>
+th:text="${lDTO2.urlName}" -> <span th:text="${lDTO2.urlName}" style="font-weight: bold; color:blue"></span>
+<hr>
+기본) 홑따옴표, +연산자 ( <span style="font-weight: bold; color:blue">'../'+${lDTO2.url}</span> )<br>
+<a th:href="'../'+${lDTO2.url}">내부링크-객체 값을 출력</a><hr>
+
+서식 문자열, 파이프, Literal substitution ( <span style="font-weight: bold; color:blue">|../${ lDTO2.url}|</span> )<br>
+<a th:href="|../${ lDTO2.url}|">내부링크-객체 값을 출력</a><hr>
+
+uri템플릿 처리(바인딩하듯이) ( <span style="font-weight: bold; color:blue">@{ ../{link}(link=${lDTO2.url})</span> )<br>
+<a th:href="@{ ../{link}(link=${lDTO2.url}) }">내부링크-객체 값을 출력</a><hr>
+
+<h2 style="font-weight: bold; color:blue">파라메터 존재</h2>
+<!-- <a th:href="@{/{link}(link=${lDTO2.url})}" th:text="">링크</a> -->
+<a th:href="@{ /{link}( link=${lDTO2.url}, name=${lDTO2.name}, age=${lDTO2.age} )}">파라메터 생성하기(알아서 인코딩된다~)</a>
+
+
+</body>
+</html>
